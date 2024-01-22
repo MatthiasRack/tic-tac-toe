@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #333233;
+    /* Hintergrundfarbe des Mockups */
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+    /* Weiße Border für die Zellen */
+    font-size: 36px;
+}
+
+table td {
+    border: 5px solid white;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
