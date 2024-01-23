@@ -19,8 +19,8 @@ table {
 }
 
 td {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     text-align: center;
     vertical-align: middle;
     border: 1px solid white;
@@ -46,4 +46,14 @@ table tr:last-child td {
 
 table tr td:last-child {
     border-right: 0;
+}
+
+ /* CSS für die Animation */
+ @keyframes fillAnimation {
+    from {
+        stroke-dashoffset: 189;
+    }
+    to {
+        stroke-dashoffset: 10;
+    }
 }
