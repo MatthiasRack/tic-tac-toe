@@ -14,8 +14,17 @@ h1 {
     text-align: center;
 }
 
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+
 table {
     border-collapse: collapse;
+    position: relative;
 }
 
 td {
